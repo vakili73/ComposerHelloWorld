@@ -1,0 +1,21 @@
+{
+    "name": "vahid/hello-world",
+    "description": "My first Composer project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vahid Vakili-Zare",
+            "email": "vhid.vz@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HelloWorld": "src"
+        }
+    }
+}
